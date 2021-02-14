@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50e1de0aeead3246b319e62fd553248, type: 3}
+  m_Name: EnemyDescriptionsCollection
+  m_EditorClassIdentifier: 
+  EnemyDescriptions:
+  - {fileID: 11400000, guid: e8144aebc1c87434c95472fff613a607, type: 2}
+  - {fileID: 11400000, guid: af847a53941ebc047baf0705f5ab45b0, type: 2}
+  - {fileID: 11400000, guid: afefc899c422b4941ad5766dfbb4df27, type: 2}
+  - {fileID: 11400000, guid: 5f1a9b0e43b3780428f5d26156854663, type: 2}

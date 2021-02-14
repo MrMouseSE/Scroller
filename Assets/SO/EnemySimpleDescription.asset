@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8040d244644a9249814e8fe4f8ac001, type: 3}
+  m_Name: EnemySimpleDescription
+  m_EditorClassIdentifier: 
+  Type: 1
+  Meshes:
+  - {fileID: -3355042150656209556, guid: f9742c9b613b8f041b3b1e9be7b6492e, type: 3}
+  GO: {fileID: 309253221659528827, guid: 2dd35a506eacffc489165230204b730a, type: 3}
+  Hitpoints: {x: 1, y: 1}
+  SpawnRate: 0.3
+  DiePosX: -100
+  SpawnRectangles:
+  - PointFrom: {x: 150, y: 0, z: -40}
+    PointTo: {x: 150, y: 0, z: 40}
+  DestroyFX: {fileID: 6496258547437470844, guid: 692edfc1d5e79c4468a32cfd6a70fba6,
+    type: 3}
+  Speed: {x: 5, y: 50}
+  WeaponDescription: {fileID: 11400000, guid: f54924241dd76064498e1327dc8309b2, type: 2}
+  EnemyShipMaterial: {fileID: 2100000, guid: 932cec8632471564cbaf86484d4ca2b0, type: 2}
